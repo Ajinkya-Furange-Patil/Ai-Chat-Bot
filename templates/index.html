@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajinkya Furange AI</title>
+    <link rel="stylesheet" href="../templates/try.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Sidebar -->
+      <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+          <button id="newChatButton" class="new-chat-button">New Chat</button>
+        </div>
+        <div id="chatsList" class="chats-list">
+          <!-- Chat items will be inserted here -->
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div id="mainContent" class="main-content">
+        <!-- Chat Header -->
+        <div id="chatHeader" class="chat-header">
+          <button id="toggleSidebar" class="toggle-sidebar">≡</button>
+          <h2 id="chatTitle" class="chat-title">New Chat</h2>
+          <div class="chat-actions">
+            <button id="renameChat" class="rename-button">Rename</button>
+            <button id="deleteChat" class="delete-button">Delete</button>
+          </div>
+        </div>
+
+        <!-- Chat Container -->
+        <div id="chatContainer" class="chat-container">
+          <!-- Messages will be inserted here -->
+          <div class="typing-indicator">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+          </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+          <textarea
+            id="messageInput"
+            placeholder="Type your message..."
+            rows="1"
+          ></textarea>
+          <button id="sendButton" disabled class="rename-button">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../templates/chat.js"></script>
+  </body>
+</html>
