@@ -21,3 +21,6 @@
 * **Integration with third-party services:** Integrate with other services like cloud storage, messaging platforms, or analytics tools.
 
 * **pip install Flask flask-cors:** For the installation of dependencises.
+
+* **python app.py:** To run the application.
+* **This is New GIT** Commite First Time.
